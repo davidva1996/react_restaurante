@@ -1,13 +1,33 @@
 {
   "files": {
     "main.css": "/react_restaurante/build/static/css/main.b721c67a.css",
-    "main.js": "/react_restaurante/build/static/js/main.24594973.js",
+    "main.js": "/react_restaurante/build/static/js/main.a758b9d0.js",
+    "static/media/hamburguesa-1.avif": "/react_restaurante/build/static/media/hamburguesa-1.68a45747abeaa4b863fd.avif",
+    "static/media/hamburguesa-banner.png": "/react_restaurante/build/static/media/hamburguesa-banner.ae65c099eaa6212d6342.png",
+    "static/media/ensalada-11.avif": "/react_restaurante/build/static/media/ensalada-11.f68dcb9cecd708867719.avif",
+    "static/media/pizza-5.avif": "/react_restaurante/build/static/media/pizza-5.44f5ca9cf5ff9893b04c.avif",
+    "static/media/pizza-6.avif": "/react_restaurante/build/static/media/pizza-6.01a306cfd4d9b7ddcec3.avif",
+    "static/media/ensalada-12.avif": "/react_restaurante/build/static/media/ensalada-12.38edebae6c7c04883ae5.avif",
+    "static/media/chicken16.avif": "/react_restaurante/build/static/media/chicken16.cff0be8ec42a3e77b6d5.avif",
+    "static/media/pizza-7.avif": "/react_restaurante/build/static/media/pizza-7.ac3f6b2de2051de661b8.avif",
+    "static/media/Hamburguesa-2.avif": "/react_restaurante/build/static/media/Hamburguesa-2.04aac8146ac4da615df8.avif",
+    "static/media/ensalada-9.avif": "/react_restaurante/build/static/media/ensalada-9.b2eeca4dd85a9b12bb43.avif",
+    "static/media/ensalada-10.avif": "/react_restaurante/build/static/media/ensalada-10.983f4c4c956336adb3f1.avif",
+    "static/media/pizza-8.avif": "/react_restaurante/build/static/media/pizza-8.c7058dd7ff8a7655b6b8.avif",
+    "static/media/chicken-14.avif": "/react_restaurante/build/static/media/chicken-14.c08d1734038447c20f8a.avif",
+    "static/media/hamburguesa-3.avif": "/react_restaurante/build/static/media/hamburguesa-3.7650c96ab4a897daea41.avif",
+    "static/media/hamburguesa-4.avif": "/react_restaurante/build/static/media/hamburguesa-4.423dd35c7d50de04175f.avif",
+    "static/media/reposteria.avif": "/react_restaurante/build/static/media/reposteria.3079dd0e144feb446daa.avif",
+    "static/media/chicken-13.avif": "/react_restaurante/build/static/media/chicken-13.6d9721cf5e879edc7390.avif",
+    "static/media/restaurante-carne.avif": "/react_restaurante/build/static/media/restaurante-carne.981aced18a417bbf46ed.avif",
+    "static/media/chicken-15.avif": "/react_restaurante/build/static/media/chicken-15.759379d6853db7716c43.avif",
+    "static/media/restaurante-italiano.avif": "/react_restaurante/build/static/media/restaurante-italiano.671041c4aab644742a08.avif",
     "index.html": "/react_restaurante/build/index.html",
     "main.b721c67a.css.map": "/react_restaurante/build/static/css/main.b721c67a.css.map",
-    "main.24594973.js.map": "/react_restaurante/build/static/js/main.24594973.js.map"
+    "main.a758b9d0.js.map": "/react_restaurante/build/static/js/main.a758b9d0.js.map"
   },
   "entrypoints": [
     "static/css/main.b721c67a.css",
-    "static/js/main.24594973.js"
+    "static/js/main.a758b9d0.js"
   ]
 }

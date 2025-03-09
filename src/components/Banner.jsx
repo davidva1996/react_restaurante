@@ -1,5 +1,5 @@
 import React from 'react'
-
+import bannerPrincipal from './assets/hamburguesa-banner.png'
 const Banner = () => {
   return (
     <div className='max-h-[1640px] mx-auto p-4'>
@@ -11,7 +11,7 @@ const Banner = () => {
             <h1 className='px-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold'> <span className='text-orange-500'>Comida</span> a Domicilio</h1>
         </div>
 
-        <img className='w-full max-h-[500px] object-cover' src="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="/" />
+        <img className='w-full max-h-[500px] object-cover' src={bannerPrincipal} alt="/" />
 
     </div>
 

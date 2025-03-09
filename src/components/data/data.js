@@ -1,130 +1,154 @@
+/* Hamburguesas */
+import hamburguesa1 from './assets/hamburguesa-1.avif'
+import hamburguesa2 from './assets/Hamburguesa-2.avif'
+import hamburguesa3 from './assets/hamburguesa-3.avif'
+import hamburguesa4 from './assets/hamburguesa-4.avif'
+
+
+/* PIZZAS*/
+import pizza5 from './assets/pizza-5.avif'
+import pizza6 from './assets/pizza-6.avif'
+import pizza7 from './assets/pizza-7.avif'
+import pizza8 from './assets/pizza-8.avif'
+
+/* ENSALADAS*/
+
+import ensalada9 from './assets/ensalada-9.avif'
+import ensalada10 from './assets/ensalada-10.avif'
+import ensalada11 from './assets/ensalada-11.avif'
+import ensalada12 from './assets/ensalada-12.avif'
+
+
+/* POLLO*/
+import chicken13 from './assets/chicken-13.avif'
+import chicken14 from './assets/chicken-14.avif'
+import chicken15 from './assets/chicken-15.avif'
+import chicken16 from './assets/chicken16.avif'
+
+
+/* TOP ITEMS*/
+
+import categoria1 from './assets/categoria-1.png'
+import categoria2 from './assets/categoria-2.png'
+import categoria3 from './assets/categoria-3.png'
+import categoria4 from './assets/categoria-4.png'
+import ultimaoferta from './assets/categoria-5.png'
+import recompensa from './assets/recompensa.png'
+import lomejor from './assets/lo-mejor.png'
+import enviogratis from './assets/envio-gratis.png'
+
+
 export const data = [
     {
       id: 1,
       name: 'Double Cheeseburger',
       category: 'burger',
-      image:
-        'https://images.unsplash.com/photo-1607013251379-e6eecfffe234?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVyZ2Vyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60',
+      image: hamburguesa1,
       price: '$$$$',
     },
     {
       id: 2,
       name: 'Bacon Cheeseburger',
       category: 'burger',
-      image:
-        'https://images.unsplash.com/photo-1553979459-d2229ba7433b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJ1cmdlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60',
+      image:hamburguesa2,
       price: '$',
     },
     {
       id: 3,
       name: 'Mushroom Burger',
       category: 'burger',
-      image:
-        'https://images.unsplash.com/photo-1608767221051-2b9d18f35a2f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJ1cmdlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60',
+      image: hamburguesa3,
       price: '$$',
     },
     {
       id: 4,
       name: 'Loaded Burger',
       category: 'burger',
-      image:
-        'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YnVyZ2Vyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60',
+      image:hamburguesa4,
       price: '$$$',
     },
     {
       id: 5,
       name: 'Pizza vegetales',
       category: 'pizza',
-      image:
-        'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+      image:pizza5,
       price: '$$',
     },
     {
       id: 6,
       name: ' Pizza suprema',
       category: 'pizza',
-      image:
-        'https://images.unsplash.com/photo-1604382355076-af4b0eb60143?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+      image:pizza6,
       price: '$$$',
     },
     {
       id: 7,
       name: 'Pizza peperoni',
       category: 'pizza',
-      image:
-        'https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60',
+      image:pizza7,
       price: '$$$$',
     },
     {
       id: 8,
       name: 'Pizza tres quesos',
       category: 'pizza',
-      image:
-        'https://images.unsplash.com/photo-1548369937-47519962c11a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2hlZXNlJTIwcGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+      image:pizza8,
       price: '$',
     },
     {
       id: 9,
       name: 'Ensalada Kale',
       category: 'salad',
-      image:
-        'https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2FsYWQlMjBjZWFzYXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+      image:ensalada9,
       price: '$$',
     },
     {
       id: 10,
       name: 'Ensalada Ceasar',
       category: 'salad',
-      image:
-        'https://images.unsplash.com/photo-1546793665-c74683f339c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2FsYWQlMjBjZWFzYXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+      image:ensalada10,
       price: '$$$',
     },
     {
       id: 11,
       name: 'Ensalada vegetal',
       category: 'salad',
-      image:
-        'https://images.unsplash.com/photo-1540420773420-3366772f4999?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2FsYWR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+      image:ensalada11,
       price: '$$$$',
     },
     {
       id: 12,
       name: 'Ensalada de frutas',
       category: 'salad',
-      image:
-        'https://images.unsplash.com/photo-1564093497595-593b96d80180?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZnJ1aXQlMjBzYWxhZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60',
+      image:ensalada12,
       price: '$',
     },
     {
       id: 13,
       name: 'Wings',
       category: 'chicken',
-      image:
-        'https://images.unsplash.com/photo-1567620832903-9fc6debc209f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpY2tlbiUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+      image:chicken13,
       price: '$$',
     },
     {
       id: 14,
       name: 'Baked Chicken',
       category: 'chicken',
-      image:
-        'https://images.unsplash.com/photo-1594221708779-94832f4320d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2hpY2tlbiUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+      image:chicken14,
       price: '$$$$',
     },
     {
       id: 15,
       name: 'Chicken Tenders',
       category: 'chicken',
-      image:
-        'https://images.unsplash.com/photo-1562967914-608f82629710?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNoaWNrZW4lMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60',
+      image:chicken15,
       price: '$',
     },
     {
       id: 16,
       name: 'Chicken Kabob',
       category: 'chicken',
-      image:
-        'https://images.unsplash.com/photo-1603360946369-dc9bb6258143?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNoaWNrZW4lMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60',
+      image:chicken16,
       price: '$$$',
     },
   ];
@@ -133,49 +157,41 @@ export const data = [
     {
       id: 1,
       name: 'Comida rapida',
-      image:
-        'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/FastFood_BrowseHome@3x.png',
+      image:categoria1,
     },
     {
       id: 2,
       name: 'Pizza',
-      image:
-        'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Pizza_BrowseHome@3x.png',
+      image:categoria2,
     },
     {
       id: 3,
       name: 'Wings',
-      image:
-        'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Wings_BrowseHome@3x.png',
+      image:categoria3,
     },
     {
       id: 4,
       name: 'Comida india',
-      image:
-        'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Indian_BrowseHome@3x.png',
+      image:categoria4,
     },
     {
       id: 5,
       name: 'Ultimas ofertas',
-      image:
-        'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Deals_BrowseHome@3x.png',
+      image:ultimaoferta,
     },
     {
       id: 6,
       name: 'Recompensas de restaurante',
-      image:
-        'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/RestoRewards_BrowseHome@3x.png',
+      image:recompensa,
     },
     {
       id: 7,
       name: 'Lo mejor',
-      image:
-        'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/TopEats_Browse%20Home@3x.png',
+      image:lomejor,
     },
     {
       id: 8,
       name: 'Envio gratis',
-      image:
-        'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Placeholder_Plates@3x.png',
+      image:enviogratis,
     },
   ];
